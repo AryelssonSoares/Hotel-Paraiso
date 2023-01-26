@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    border: none;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+html {
+    width: 100vw;
+    height: 100vh;
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+.menu {
+    width: 100vw;
+    height: 105px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f1e1f;
+    position: fixed;
+}
+
+.menu-logo {
+    width: 100px;
+    height: auto;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.menu-logo img {
+    width: 100%;
+    height: 100%;
+}
+
+.menu-lista {
+    display: flex;
+    align-items: flex-end;
+}
+
+.menu-lista li a {
+    color: white;
+    font-size: 1.4rem;
+    padding: 3rem;
+    font-weight: 500;
+    transition: all 200ms ease-in;
+}
+
+.menu-lista li a:hover {
+    background-color: #3333;
+    color: #ffc509;
+    border-bottom: 2px solid #ffc509;
+}
+
+.home {
+    height: 100vh;
+    width: 100vw;
+    background-image:linear-gradient(rgba(29, 29, 29, 0.8), rgba(29, 29, 29, 0.8)), url(../img/fundo.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-principal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-principal h1{
+    font-size: 4.5rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #ffc509;
+    margin-bottom: 1rem;
+}
+
+.home-principal h2 {
+    color: rgb(177, 177, 177);
+    font-size: 3rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding-bottom: 2rem;
+}
+
+.btns {
+    width: 480px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btns button{
+    width: 230px;
+    height: 60px;
+    cursor: pointer;
+    text-transform: uppercase;
+    background-color: #ffc509;
+    border-radius: 10px;
+    font-weight: 700;
+    margin-top: 4rem;
+    transition: all 400ms ease-in;
+}
+
+.btns button:hover {
+    color: #ffc509;
+    border: 1px solid #ffc509;
+    background-color: transparent;
+}
+
+.sobre {
+    background-color: #1f1e1f;
+    color: white;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sobre-principal {
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+.sobre-principal h1 {
+    color: white;
+    font-size: 4rem;
+    font-weight: 500;
+}
+
+.sobre-principal p {
+    font-size: 1.5rem;
+}
+
+.sobre-img {
+    width: 30vw;
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+}
+
+.sobre-img img {
+    width: 310px;
+    height: 340px;
+    border: 0.5px solid white;
+}
