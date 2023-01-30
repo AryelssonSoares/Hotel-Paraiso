@@ -13,4 +13,4 @@
 - Css3
 - JavaScript
 
-O meu objetivo neste projeto foi pôr em prática funcionalidades que venho aprendendo nos estudos de JavaScript: Scroll suave(ao clicar em links internos direciona de forma bem elegante para a seção correspondente) e Animação scroll(ao navegar na página o conteúdo se apresenta com uma animação).
+O meu objetivo neste projeto foi pôr em prática funcionalidades que venho aprendendo nos estudos de JavaScript como: Scroll suave(ao clicar em links internos direciona de forma bem elegante para a seção correspondente) e Animação scroll(ao navegar na página o conteúdo se apresenta com uma animação).
